@@ -1,0 +1,26 @@
+.icon__hr{
+    transform: scale(3.5);
+    color:#630abb;
+    margin-top: 5rem;
+    margin-bottom: -1rem;
+    padding: 0rem 1.5rem;
+}
+.icon__hr2{
+    transform: scale(3.5);
+    color:#fd7e14;
+    margin-top: 5rem;
+    margin-bottom: -1rem;
+    padding: 0rem 1.5rem;
+}
+
+.icon__hr__div{
+    text-align: center;
+}
+.icon__hr__p{
+    margin-top: 3.3rem;
+    font-size: 2.3rem;
+    font-family: initial;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: -1.4rem;
+}

@@ -1,0 +1,118 @@
+.ProductCart__bgdiv{
+    width: 80%;
+    margin: 0rem auto;
+    margin-top: 8rem;
+}
+.ProductCart__headings{
+    background-color: rgb(237, 71, 10);
+    display: flex;
+    justify-content:space-between;
+    /* border:2px solid green; */
+    padding: 2rem 4rem;
+}
+.ProductCart__headings span{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color:white;
+}
+.ProductCart__items{
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-between;
+    /* border:2px solid green; */
+    padding: 1rem 4rem;
+    margin: 1rem 0rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid lightgrey;
+}
+.ProductCart__items img{
+    width: 9rem;
+    margin-top: -1rem;
+}
+.ProductCart__items span{
+    font-size: 2rem;
+    color:black;
+    padding: 2rem 0rem 0rem;
+
+}
+.ProductCart__items__pricespan{
+    margin-left: -4rem;
+}
+.ProductCart__items__close{
+
+    margin-right: 1rem;
+    color: red;
+    transform: scale(1.5);
+}
+.ProductCart__continue__shopping{
+    padding: 1.2rem 3.2rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 5rem;
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    background-color:red;
+}
+.ProductCart__items__checkout{
+    margin-top: 8rem;
+}
+.ProductCart__items__checkout__subtotal{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.ProductCart__items__closeicon{
+    transform: scale(1.5);
+    /* margin-left: -2rem; */
+    position: relative;
+    color:black;
+    /* left: -1rem; */
+    margin-left: 0.6rem;
+
+}
+.ProductCart__items__closeicon__delete:hover{
+    color:red;
+    cursor: pointer;
+}
+.ProductCart__items__closeicon__add:hover{
+    color:green;
+    cursor: pointer;
+
+    
+}
+.ProductCart__items__checkout__subtotal span{
+    font-size: 2rem;
+    color: darkslategrey;
+}
+.ProductCart__items__checkout__subtotal__hr{
+    width: 100%;
+    margin: 0rem;
+}
+.ProductCart__items__checkout__subtotal__total{
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+    color: black !important;
+    margin-top: 1rem;
+
+}
+.ProductCart__items__checkout__subtotal__totalprice{
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+    margin-top: 1rem;
+
+    color: black !important;
+}
+.ProductCart__CheckoutButton{
+    padding: 1.2rem 3.2rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 4rem;
+    color: white;
+    background-color:red;
+}

@@ -1,0 +1,121 @@
+.aboutus__upperDiv::before{
+    background-image: url("../../images/shopImages/shopHeader.jpg") !important ;
+    content:"";
+    position: absolute;
+    width:100%; 
+    background-size: cover;
+    background-position: left;
+    height:21rem;
+    z-index: -2;
+    opacity: 1;
+}
+.cardShopCols{
+    margin:5rem 0rem;
+}
+.shopmaindiv{
+    background-image: url("../../images/BackgroundImages/homedonersbackground.jpg");
+
+}
+
+
+/* .shopmaindiv::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/shopImages/shopbackground.jpg");
+    z-index: -4;
+    object-fit: fill;
+} */
+.mainh1{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem auto;
+    width: 90%;
+    /* font-family: montesserat; */
+}
+.shopoptionboxdiv{
+    display: flex;
+    /* justify-content:space-between; */
+    /* padding:3rem 0rem; */
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 6rem 0rem;
+    margin:0rem auto;
+    width: 60%;
+    box-shadow: 1px 1px 1px gray;
+    background-color:#895061;
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+
+}
+.shopoptionboxdivbottom{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    font-size: 3.4rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+.shopoptionboxsmalldiv1{
+    width: 25rem;
+    /* margin-left: 9rem; */
+    padding: 1.3rem 0rem;
+    color:white;
+    /* border-radius: 2rem 0rem; */
+    color: black;
+    background-color: #0677a1;
+    font-size: 2.2rem;
+    border-radius: 1rem;
+
+    padding-left: 3rem;
+}
+.shopoptionboxsmalldiv2{
+    width: 25rem;
+    margin-left: 9rem;
+    border-radius: 1rem;
+    color:white;
+
+    padding: 1.3rem 0rem;
+    /* border-radius: 0rem 0rem; */
+    color: #78244c;
+    background-color: #0677a1;
+    font-size: 2.2rem;
+    padding-left: 3rem;
+}
+.select{
+    width: 23rem;
+    position: relative;
+    padding: 0.2rem;
+    color: #78244c;
+    left: -2rem;
+    background-color: #0677a1;
+    border:none;
+    font-weight: 900;
+}
+.select2{
+    width: 23rem;
+    color: #78244c;
+    font-weight: 900;
+
+    background-color: #0677a1;
+}
+@media screen and (max-width:620px) {
+    .shopoptionboxdivbottom{
+        flex-direction: column;
+      
+    }
+    .shopoptionboxsmalldiv2{
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .h1{
+        text-align: center;
+    }
+    
+}

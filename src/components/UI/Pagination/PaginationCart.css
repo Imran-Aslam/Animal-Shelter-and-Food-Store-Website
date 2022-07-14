@@ -1,0 +1,24 @@
+.cart__pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+.page-link{
+    /* background-color: #fd7e14; */
+    padding: 1.5rem 2rem !important;
+    color: black;
+    font-size: 1.5rem !important;
+    /* border: none; */
+    font-weight: 600;
+    background-color: whitesmoke;
+    /* border: orange; */
+    border: 1px solid white;
+    
+}
+/* .page-link:hover{
+    color: orange;
+    background-color: white;
+}
+.page-item:active{
+    color: red;
+} */

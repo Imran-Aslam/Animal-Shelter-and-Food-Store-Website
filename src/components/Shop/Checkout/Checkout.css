@@ -1,0 +1,232 @@
+.Checkout__bgdiv{
+   
+    width: 80%;
+    margin:0rem auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:8rem;
+}
+.Checkout__leftflexdiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* border: 2px solid black; */
+}
+.Checkout__h2{
+    font-size: 3.7rem;
+    color: dimgrey;
+    font-weight: 500;
+    margin: 4rem 0rem;
+}
+.Checkout__namesinput input{
+    width: 44%;
+    padding: 0.8rem 0.5rem;
+    margin-right: 4rem;
+    border: 1px solid lightgrey;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.Checkout__emailphone input{
+    width: 44%;
+    padding: 0.8rem 0.5rem;
+    margin-right: 4rem;
+    border: 1px solid lightgrey;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 3.5rem;
+}
+.Checkout__cityzip input{
+    width: 44%;
+    padding: 0.8rem 0.5rem;
+    margin-right: 4rem;
+    border: 1px solid lightgrey;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 3.5rem;
+}
+.Checkout__cityzip select{
+    width: 44%;
+    padding: 0.8rem 0.5rem;
+    margin-right: 4rem;
+    border: 1px solid lightgrey;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 3.5rem;
+}
+.Checkout__cityzip__error select{
+    width: 44%;
+    padding: 0.8rem 0.5rem;
+    margin-right: 4rem;
+    border: 1px solid red;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 3.5rem;
+}
+.Checkout__address{
+    width: 93.5%;
+    padding: 0.8rem 0.5rem;
+    margin-right: 4rem;
+    border: 1px solid lightgrey;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+.Checkout__rightflexdiv{
+    /* border: 2px solid green; */
+    width: 30%;
+    padding: 1rem 1rem;
+    background-color: #e5a62d;
+}
+.Checkout__heading{
+    display: flex;
+    justify-content: space-between;
+    font-size:1.9rem;
+    color:white;
+
+}
+.Checkout__heading p{
+    font-size: 2.2rem;
+    /* color: black; */
+    font-weight: 600;
+    color: red;
+   
+
+}
+.Checkout__info{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Checkout__info p{
+    font-size: 1.56rem;
+    color: darkslategrey;
+    margin-bottom: 2rem;
+}
+.Checkout__heading2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.Checkout__hrheading{
+    border-top: 1px solid white;
+}
+.Checkout__heading2 p{
+    font-size:1.9rem;
+    color:white;
+    margin: 1rem 0rem;
+    font-weight: bold;
+
+}
+.Checkout__h1{
+    margin: 3rem 0rem;
+    font-weight: 600;
+    color:white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3rem;
+}
+.CheckoutRadio{
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    margin: 1rem 0rem;
+    color:white;
+
+}
+.CheckoutRadio1{
+    margin-top: 3rem;
+}
+.Checkoutbtn{
+    padding: 1.2rem 2.2rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    background-color: #e7470c;
+    margin:3rem 0rem 7rem;
+}
+.Checkoutbtn:hover{
+    color:#e7470c;
+    background-color: white;
+    border: 1px solid #e5a62d;
+
+}
+@media screen and (max-width:925px) {
+   .Checkout__namesinput input{
+       width: 40%;
+   }    
+   .Checkout__emailphone input{
+    width: 40%;
+   }
+   .Checkout__cityzip input{
+    width: 40%;
+   }
+   .Checkout__cityzip select{
+    width: 40%;
+   }
+}
+@media screen and (max-width:700px) {
+    .Checkout__bgdiv{
+        flex-direction: column;
+    }
+    .Checkout__leftflexdiv{
+        width: 100%;
+    }
+    .Checkout__namesinput input{
+        width: 43%;
+    }    
+    .Checkout__emailphone input{
+     width: 43%;
+    }
+    .Checkout__cityzip input{
+     width: 43%;
+    }
+    .Checkout__cityzip select{
+     width: 43%;
+    }
+    .Checkout__rightflexdiv{
+        width: 100%;
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width:408px) {
+    .Checkout__namesinput{
+        display: flex;
+        flex-direction: column;
+    }
+    .Checkout__namesinput input{
+        width:100%;
+        margin: 1rem 0rem;
+    }
+    .Checkout__emailphone{
+        display: flex;
+        flex-direction: column;
+    }
+    .Checkout__emailphone input{
+        width:100%;
+        margin: 1rem 0rem;
+    }
+     .Checkout__cityzip{
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+
+    .Checkout__cityzip input{
+        width:100%;
+        margin: 1rem 0rem;
+    }
+    .Checkout__cityzip select{
+        width:100%;
+        margin: 1rem 0rem;
+    }
+    .Checkout__address{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}

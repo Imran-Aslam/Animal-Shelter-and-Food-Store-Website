@@ -1,0 +1,81 @@
+.Pets__bgdiv{
+    margin:0rem auto;
+    width: 80%;
+    /* border:2px solid black; */
+    margin-top: -3rem;
+}
+.Pets__filter__div{
+    /* background-image: url('../../images/aboutus/cat4.jpg'); */
+    background-repeat: no-repeat;
+    background-color: snow;
+    object-fit: contain;
+    border-radius: 0.6rem;
+    background-size: cover;
+    background-position: center;
+}
+/* .Pets__filter__div::before{
+    background-image: url('../../images/aboutus/cat4.jpg');
+    content: '';
+    position: absolute;
+    z-index: -7;
+    width: 80%;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+} */
+.Pets__h1{
+    font-size: 5rem;
+    position: relative;
+    top: 2rem;
+    left: 14rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+.Pets__icon{
+    
+    position: relative;
+    transform: scale(3.5);
+    top: 5.7rem;
+    left: 10rem;
+    color: dimgray;
+}
+.Pets__filter__div__flex{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    margin: 2rem 0rem 5rem;
+    padding: 0rem 7rem;
+}
+.Pets__filter__div__flex select{
+    /* padding: 1.5rem 0rem; */
+    margin: 3rem 1rem 6rem;
+    width: 30rem;
+    border-radius: 2rem;
+    /* font-size: 1.4rem; */
+    border: 1px solid darkgray; 
+    background-color: #6f42c1;
+    padding: 1.5rem 1rem;
+    border: none;
+    font-size: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: lightgray;
+}
+.Pets__h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem 0rem 8rem;
+}
+@media screen and (max-width:535px) {
+    .Pets__filter__div__flex{
+        flex-direction: column;
+    }
+    .Pets__filter__div__flex select{
+        margin: 1rem auto;
+        width: 80%;
+    }
+    .Pets__h1{
+        margin-bottom: 4rem;
+    }
+}

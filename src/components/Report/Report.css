@@ -1,0 +1,63 @@
+.Report__h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 6rem 0rem;
+    color: crimson;
+}
+
+.Report__bgdiv {
+    margin: 0rem auto;
+    width: 80%;
+}
+
+.Report__firstflex img {
+    width: 55rem;
+    border-radius: 20px;
+}
+
+.Report__firstflex {
+    display: flex;
+    margin-bottom: 7rem;
+}
+
+.Report__firstflex__right {
+    margin-left: 4rem;
+}
+
+.Report__firstflex__right h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    /* margin-bottom: 4rem; */
+}
+
+.Report__firstflex__right h5 {
+    color: orange;
+    /* margin-left: 1rem; */
+    font-size: 2.3rem;
+    /* color: blue; */
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.Report__firstflex__right p {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 670px) {
+    .Report__firstflex {
+        flex-direction: column;
+    }
+    .Report__firstflex img {
+        width: 80%;
+        margin: 0rem auto;
+        margin-bottom: 2rem;
+    }
+    .Report__firstflex__right {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+}

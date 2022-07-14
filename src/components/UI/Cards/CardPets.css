@@ -1,0 +1,120 @@
+.petscard__title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #6f42c1;
+    margin-bottom: 2rem;
+}
+
+.petscard__title:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.cardPets__backgroundimg {
+    background-color: #ffffff;
+}
+
+
+/* .petscard__title:nth-of-type(2n+1){
+    color:black;
+} */
+
+.petscard__text ul {
+    list-style: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.petscard__text span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.petscard__btn {
+    position: relative;
+    padding: 0.6rem 3.4rem;
+    line-height: 29px;
+    color: #444444;
+    font-size: 12px;
+    margin-bottom: 3rem;
+    margin-left: 1.3rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    border-radius: 5rem;
+    background: none;
+    text-transform: uppercase;
+    border: 0.2rem solid #eeeeee;
+}
+
+.petscard__btn:hover {
+    transform: scale(1.1);
+    background-color: #e5a62d;
+    border: 0.2rem solid #ffffff;
+}
+
+.card {
+    margin: 1.5rem !important;
+    border-radius: 1rem 1rem 0rem 0rem !important;
+    /* border: none !important; */
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid lightgray;
+}
+
+.card:hover .petscard__text li {
+    color: #6f42c1;
+}
+
+.card:hover .petscard__title {
+    color: orange;
+}
+
+.card:hover .petscard__text li span {
+    color: crimson;
+    font-weight: bold;
+}
+
+
+/* .card:hover{
+    /* transform: scale(1.1); */
+
+
+/* box-shadow: 0 0.8rem 1.6rem rgb(0, 0,0,0.2);
+    cursor: pointer;
+ */
+
+.cardpets__img {
+    border-radius: 75% 30% 30% 80% / 43% 46% 64% 66%;
+    transition: 1s;
+    width: 100%;
+    /* object-fit: contain; */
+    height: 23rem;
+    width: 100%;
+}
+
+.cardpets__img:hover {
+    /* border-radius: 65% 20% 10% 100% / 23% 16% 4% 66% !important; */
+    cursor: pointer;
+    border-radius: 20px !important;
+}
+
+@media screen and (max-width: 1090px) {
+    .cardPets {
+        width: 25rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cardPets {
+        width: 30rem !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cardPets {
+        width: 25rem !important;
+    }
+}
