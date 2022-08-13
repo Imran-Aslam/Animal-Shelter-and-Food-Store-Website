@@ -1,0 +1,92 @@
+.welcomservices__bgdiv {
+    width: 80%;
+    margin: 0rem auto;
+}
+
+.welcomeservices__maindiv {
+    /* position: relative; */
+    background-image: url("../../../images/BackgroundImages/backgroundimage2.png");
+    background-position: initial;
+    position: relative;
+    padding: 1.6rem 0px 15rem;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+/* .welcomeservices__maindiv::before{
+    background-image: url("../../../images/BackgroundImages/backgroundimage2.png");
+    background-position: initial;
+    padding-top: 5rem;
+    position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+
+} */
+
+.welcomservices__h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem;
+    font-weight: 700;
+    margin-bottom: 6rem;
+}
+
+.welcomeservices__smalldiv {
+    /* position: relative; */
+    border: 0.1rem solid #e6e6e6;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.welcomeservices__icon {
+    margin-top: 2rem;
+    float: left;
+    transform: scale(6.5);
+    position: relative;
+    top: 3rem;
+    left: 7rem;
+}
+
+.welcomeservices__h4 {
+    position: relative;
+    left: 14rem;
+    font-family: emoji;
+    font-size: 2rem;
+    color: rgb(41, 39, 39);
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.welcomeservices__p {
+    font-size: 1.5rem;
+    position: relative;
+    top: 1rem;
+    left: 15rem;
+    padding-right: 18rem;
+    margin-bottom: 5rem;
+}
+
+.welcomeservices__row {
+    margin-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.welcomeservices__smalldiv:hover .welcomeservices__icon {
+    color: #fd7e14;
+    /* cursor: pointer; */
+    transform: scale(7.5);
+}
+
+.welcomeservices__smalldiv:hover {
+    box-shadow: 0.2rem 0.2rem 3rem #ccc;
+}
+
+@media screen and (max-width: 1000px) {
+    .welcomeservices__row {
+        margin-top: 0.5rem;
+        padding-bottom: 3rem;
+    }
+}

@@ -1,0 +1,90 @@
+.PetDetails__bgdiv{
+    margin: 0rem auto;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-top: 5rem;
+}
+.PetDetails__h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 5rem;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 4rem;
+    color: darkslategray;
+}
+.PetDetails__p{
+    font-size: 3.3rem;
+    padding: 0rem 2rem;
+    color: purple;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.PetDetails__h2{
+    font-size: 3rem;
+    padding: 0rem 2rem;
+    margin-top: 3rem;
+    color: #FD7E36;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.PetDetails__color1{
+    color:red;
+}
+.PetDetails__color2{
+    color:gray;
+}
+.PetDetails__p2{
+    font-size: 1.8rem;
+    padding: 0rem 4rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.PetDetails__benefitsdiv{
+    margin: 2rem 1rem;
+    padding: 2rem 0rem;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    /* background-image: url("../../../images/BackgroundImages/backgroundcard1.jpg"); */
+
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem lightgray;
+}
+/* .PetDetails__benefitsdiv::before{
+    background-image: url("../../../images/BackgroundImages/backgroundcard1.jpg");
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 30rem;
+    z-index: -5;
+    opacity: 0.3;
+} */
+/* .PetDetails__benefitsdiv::before{
+    background-image: url("../../../images/aboutus/cat2.jpg");
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 30rem;
+    z-index: -5;
+    opacity: 0.3;
+} */
+.PetDetails__btn{
+    padding: 1.2rem 3.2rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 5rem;
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    background-color:#e5a62d;
+}
+.PetDetails__btn:hover{
+    background-color: white;
+    color:#e5a62d;
+    border: 1px solid #e5a62d ;
+}
+.PetDetails__btn__div{
+    text-align: center;
+}

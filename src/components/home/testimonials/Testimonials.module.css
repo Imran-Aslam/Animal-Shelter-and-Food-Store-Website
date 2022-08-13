@@ -1,0 +1,10 @@
+.slick-slide img{
+    display: initial !important;
+}
+.slick-dots{
+    top:41rem;
+}
+.testimonialhome__div{
+    width: 80%;
+    margin: 0rem auto;
+}

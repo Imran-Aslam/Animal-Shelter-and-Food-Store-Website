@@ -1,0 +1,103 @@
+.DonationHistory__mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    z-index: 10000;
+}
+.DonationHistory__mainDiv::after{
+    background-color: black;
+    opacity: 0.8;
+    content: "";
+    width: 100%;
+    height: 200%;
+    position: absolute;
+}
+.DonationHistory__bgDiv{
+    z-index: 3;
+    width: 60%;
+    margin: 0rem auto;
+    background-color:#eee2dc;
+    border-radius: 1rem;
+    animation-name: slideUp;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-out;
+}
+.DonationHistory__bgDiv h1{
+    text-align: center;
+    font-size: 5rem;
+    margin: 3rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.DonationHistory__bgDiv h2{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color:black;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.DonationHistory__bgDiv div{
+    text-align: center;
+}
+.DonationHistory__userImg{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.DonationHistory__icon{ 
+    transform: scale(2);
+    margin:1rem 1.3rem;
+    color:black;
+    margin-bottom: 0.7rem;
+   
+}
+.DonationHistory__card{
+    background-color: #edc7b7;
+    width: 70%;
+    margin: 0rem auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    /* border-radius: 1rem; */
+}
+.DonationHistory__card__heading{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid gray;
+}
+.DonationHistory__card__heading h4{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1rem 0rem;
+    color:#ac3b61;
+}
+.DonationHistory__card__data{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid gray;
+}
+.DonationHistory__card__data h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.3rem 0rem;
+    margin-left: -7rem;
+    color:#123c69;
+}
+@keyframes slideUp {
+    from{
+        margin-bottom: -200rem;
+    }
+    to{
+        margin-bottom: 0rem;
+    }
+    
+}
+@media screen and (max-width:486px) {
+    .DonationHistory__bgDiv{
+        width: 90%;
+    }
+    
+}

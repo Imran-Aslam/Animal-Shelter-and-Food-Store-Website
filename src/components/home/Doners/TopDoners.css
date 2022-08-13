@@ -1,0 +1,65 @@
+.topdoners__bgdiv {
+    margin: 0rem auto;
+    width: 80%;
+    /* margin-top: -3rem; */
+}
+
+.topdoners__maindiv {
+    background-image: url("../../../images/BackgroundImages/homedonersbackground.jpg");
+    padding-top: 8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 8rem;
+    position: relative;
+    /* width: 100vw; */
+    margin-top: 7rem;
+}
+
+.topdoners__h1 {
+    text-align: center;
+    margin-top: -1rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 7rem;
+}
+
+.topDoners__btndiv {
+    text-align: center;
+}
+
+.topDoners__btnh1 {
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.topDoners__btnp {
+    text-align: center;
+    font-size: 2rem;
+    width: 70%;
+    margin: 2rem auto;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+.topDoners__btn {
+    line-height: 2.9rem;
+    margin: 3.5rem 2rem 0px 0px;
+    padding: 1rem 4.2rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    background-color: rgb(229, 166, 45, 1);
+}
+
+.topDoners__btn:hover {
+    background-color: white;
+    color: rgb(229, 166, 45, 1);
+    border: 1px solid rgb(229, 166, 45, 1);
+}

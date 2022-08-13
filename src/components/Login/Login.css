@@ -1,0 +1,279 @@
+.Login__maindiv{
+    width: 100%;
+    margin: 0rem auto;
+    /* background-image: url("../../images/Banner_slider_image1.jpg"); */
+    margin-top: -1rem;
+    background-color: #2f2fa2;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 1px solid black; */
+}
+.Login__h1{
+    font-size: 6rem;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 7rem;
+
+}
+.Login__maindiv::before{
+    /* background-color: #26C6DA; */
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -3;
+    opacity: 0.8;
+}
+.Login__login__emailpass{
+    /* border: 2px solid red; */
+    /* border: 2px solid red;  */
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    display: flex;
+    padding: 7rem 5rem;
+    /* background-image: url("../../images/aboutus/cat3.jpg"); */
+    background-color: white;
+    border-radius: 1rem;
+    flex-direction: column;
+    background-position: bottom;
+    justify-content: center;
+    align-items: center;
+   
+}
+.Login__bgdiv{
+    /* border: 1px solid green; */
+    margin: 0rem auto;
+    width: 60%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    animation: appear 2s ease-in-out;    
+}
+.Login__login__emailpass h1{
+    color: aliceblue;
+    font-weight: 600;
+    color: black;
+        /* margin-top: 2rem; */
+        margin-bottom: 3rem;
+}
+.Login__login__emailpass__form{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0rem 2rem; */
+    
+}
+.Login__login__accountcircle__icon{
+    transform: scale(4.5);
+    margin-bottom: 4rem;
+}
+.Login__login__emailpass__icondiv{
+    display: flex;
+    position: relative;
+}
+.Login__login__emailpass__icon{
+    position: absolute;
+    top: 1.1rem;
+    transform: scale(3);
+    left: 1rem;
+    color: dimgray;
+
+}
+.Login__login__emailpass__form input{
+    padding: 1rem;
+    padding-left: 5rem;
+    width: 100%;
+    /* margin-left: 2rem; */
+    background-color: #f2f2f2;
+    /* margin-right: 2rem; */
+    font-weight: 800;
+    font-size: 1.3rem;
+    border: none;
+    /* border: 1px solid black; */
+    margin-bottom: 2rem;
+}
+.Login__login__emailpass__form button{
+    width: 20rem;
+    font-weight: 700;
+    border: none;
+    color: crimson;
+    padding: 0.7rem;
+    /* margin: 1rem 0rem 0rem 5rem; */
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    background-color: #58bff6;
+    color: white;
+}
+.Login__login__emailpass__form p{
+    color: #58bff6;
+    font-size: 1.2rem;
+}
+.Login__signup{
+   display: flex;
+    /* border: 2px solid yellow; */
+    margin-top: 7rem;
+    height: 30rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 3rem;
+    /* background-image: url("../../images/aboutus/dog5.jpg"); */
+    background-size: cover;
+    background-color: black;
+    background-position:  bottom;
+    margin-bottom: 6rem;
+
+}
+.Login__signup h1{
+    font-weight: 600;
+    color: aliceblue;
+}
+.Login__signup p{
+    font-size: 2rem;
+    color: white;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.Login__signup button{
+    
+    font-size: 2rem;
+    padding: 0.7rem 6rem;
+    background-color: #ef5350;
+    color: white;
+    margin-top: 2rem;
+    border: none;
+}
+.Login__secondflex{
+    /* border: 1px solid green; */
+    margin: 0rem auto;
+    width:0%;
+    display: flex;
+    /* padding-right: 12rem; */
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    animation: appear 2s ease-in-out;      
+}
+.Login__accountpresent{
+    display: flex;
+    height: 30rem;
+    /* border: 2px solid yellow; */
+    margin-top:7rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 3rem;
+    /* background-image: url("../../images/aboutus/dog5.jpg"); */
+    background-color: black;
+    background-size: cover;
+    background-position:  bottom;
+    margin-bottom: 6rem;
+
+}
+.Login__accountpresent p{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: white;
+    
+}
+.Login__accountpresent button{
+    font-size: 2rem;
+    padding: 0.7rem 6rem;
+    background-color: #ef5350;
+    color: white;
+    margin-top: 1rem;
+    border: none;
+}   
+.Login__signupdata{
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    display: flex;
+    padding: 7rem 5rem;
+
+    /* background-image: url("../../images/aboutus/dog4.jpg"); */
+    background-color: white;
+    flex-direction: column;
+    background-position: bottom;
+    justify-content: center;
+    align-items: center;
+    animation-name: slidesignupdata,
+    appear;
+    animation-duration: 1s,1s;
+    
+    
+}
+.Login__signupdata h1{
+    color: black;
+    font-size: 2rem;
+    color: orange;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 3rem
+}
+.Login__signupdata input{
+    padding: 1rem;
+    padding-left: 5rem;
+    outline: none;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-weight: 800;
+    font-size: 1.3rem;
+   border: none;
+    /* border: 1px solid black; */
+    margin-bottom: 2rem;
+    
+}
+.Login__signupdata button{
+    width: 20rem;
+    font-weight: 700;
+    border: none;
+    color: white;
+    padding: 0.7rem;
+    margin: 2rem 0rem 0rem 0rem;
+    font-size: 1.5rem;
+    background-color: #58bff6;
+}
+.check{
+    /* border: 2px solid pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Login__login__emailpass__form p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Login__signupdataform{
+    width: 24rem;
+}
+@keyframes appear {
+    from {
+        opacity:0
+    }
+    25%{
+        opacity: 0.4;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+@keyframes slidesignupdata {
+    from{
+        position: relative;
+      left: -30rem;
+    }
+    to {
+        position: relative;
+       left: 0rem;
+    }
+    
+}

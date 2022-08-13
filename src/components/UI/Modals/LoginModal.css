@@ -1,0 +1,81 @@
+.LoginModal__bgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position:fixed;
+
+    z-index: 10000;
+}
+.LoginModal__bgdiv::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -3;
+    opacity: 0.8;
+}
+.LoginModal__maindiv{
+    width: 40rem;
+    height: 28rem;
+    /* border: 2px solid red; */
+    background-color: #242582;
+    animation-name: fadeloginmodal;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+.LoginModal__maindiv__upperdiv h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight:bold;
+    margin-top: 3rem;
+    color: white;
+}
+.LoginModal__maindiv__upperdiv h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight:bold;
+    color:#f64c72;
+    margin-top: 1rem;
+}
+.LoginModal__maindiv__upperdiv p{
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+.LoginModal__maindiv__upperdiv__homeBtnDiv{
+    text-align: center;
+}
+.LoginModal__maindiv__upperdiv__homeBtn{
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    background-color: #f64c72;
+    border-radius: 0.1rem;
+    outline: none;
+    margin-top: 2rem;
+}
+@keyframes fadeloginmodal {
+    from{
+        border-radius: 80%;
+        margin-top:-100rem;
+    }
+    25%{
+        border-radius: 60%;
+        opacity: 0.3;
+    }
+    75%{
+        border-radius:60%;
+        opacity: 0.6;
+    }
+    to{
+        border-radius: 0rem;
+        margin-top: 0rem;
+        opacity: 1;
+    }
+}

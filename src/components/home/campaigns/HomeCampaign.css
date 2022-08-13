@@ -1,0 +1,54 @@
+.homeCampaign__img{
+    width: 53rem;
+    height: 34rem;
+    border-radius: 1rem;
+}
+.homeCampaign__bgdiv{
+    width: 80%;
+    margin: 0rem auto;
+}
+.homeCampaign__p{
+    font-weight: 500;
+    /* margin-top: 5rem; */
+    font-size: 2rem;
+    line-height: revert;
+    font-family: 'Open Sans';
+}
+.homeCampaign__row{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.homeCampaign__h1{
+    text-align: center;
+    margin: 4rem;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.homeCampaign__h2first{
+    text-align: center;
+    color: #e7470c;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.homeCampaign__h2second{
+    text-align: center;
+    color: #e5a62d;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+/* @media screen and (max-width:1166px)
+{
+    .homeCampaign__p1{
+        margin-right: 8rem;
+    }
+}
+@media screen and (max-width:1068px)
+{
+    .homeCampaign__p1{
+        margin-right: 18rem;
+        margin-top: 2rem;
+    }
+} */

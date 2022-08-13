@@ -1,0 +1,48 @@
+.GoogleLogin__btn{
+    background-color: white !important;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 1rem !important;
+    font-family: Roboto, sans-serif;
+    padding: 0rem 0rem !important;
+    width: auto !important;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 900 !important;
+    border: none !important;
+    margin-top: 0rem !important;
+}
+.GoogleLogin__btn:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: red !important;
+}
+/* div svg{
+    margin-top: -1rem;
+} */
+div span{
+    font-weight: bold !important;
+}
+.GoogleLogin__btn div{
+    font-size: 13rem !important;
+    margin-bottom: 1rem;
+    padding: 0.3rem !important;
+    margin-left: 1rem;
+
+} 
+.GoogleLogin__btn span{
+    content: "";
+}
+@media screen and (max-width:815px) {
+    
+    .GoogleLogin__btn{
+        position: relative;
+        top: -1rem;    }
+}
+@media screen and (max-width:480px) {
+    
+    .GoogleLogin__btn{
+        position: relative;
+        top: -1.4rem;
+    font-size: 2rem !important;   }
+}

@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather+Sans&family=Montserrat:wght@300&family=Open+Sans:wght@300;400&family=Roboto:wght@100;300&display=swap');
+*{
+  font-family: 'Open Sans', sans-serif;
+ 
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,200 @@
+
+.PetsInfo__bgdiv{
+    /* border: 2px solid red; */
+    margin: 0rem auto;
+    width: 80%;
+}
+.PetsInfo__h1{
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 5rem 0rem;
+}
+.PetsInfo__flexdiv{
+    display: flex;
+   
+    padding: 2rem;
+}
+.Petsinfo__img{
+    height: 55rem;
+    width: 70rem !important;
+    /* max-width: 70rem !important; */
+}
+.carousel-fade{
+    width: 70rem !important;
+}
+
+.PetsInfo__rightflex{
+    /* border: 2px solid green; */
+    margin-left: 5rem;
+}
+.PetsInfo__rightflex_namep{
+    font-size: 3rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 600;
+    color: dimgray;
+}
+
+.PetsInfo__rightflex_p{
+    margin: 1rem 0rem;
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: emoji;
+}
+.PetsInfo__rightflex_namespan{
+    color: #e5a62d;
+    font-weight: 700;
+}
+.PetsInfo__rightflex_span{
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.PetsInfo__rightflex_p_medical{
+    font-size: 2.5rem;
+    color: #e5a62d;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.PetsInfo__rightflex_p_medical_detail{
+    font-size: 1.9rem;
+    padding: 0rem 3rem;
+    font-weight: 600;
+}
+.PetsInfo__rightflex_btn{
+    padding: 1.2rem 4.2rem;
+    padding-right: 2rem;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    background-color:#e5a62d;
+}
+.PetsInfo__rightflex_btn:hover{
+    background-color: white;
+    color:#e5a62d;
+    border: 1px solid #e5a62d;
+}
+.PetsInfo__rightflex_paw2{
+    color: orange;
+    margin-right: 0.5rem;
+}
+.PetsInfo__medicaldiv{
+    /* border: 2px solid red; */
+    
+    margin: 0rem auto;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    /* border: 2px solid red; */
+}
+.PetsInfo__leftflexdivmed{
+    box-shadow: 1rem 1rem 1rem darkgrey;
+    background: radial-gradient(#fbc1cc, #fa99b2);
+    padding: 2rem 0rem;
+}
+
+.PetsInfo__medicaldiv__h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 0rem 12rem;
+    color: brown;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+.PetsInfo__medicaldiv__flex{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    padding:0.3rem 5rem;
+
+
+
+}
+.PetsInfo__medicaldiv__flex span{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+    color: crimson;
+    font-family: 'Roboto', sans-serif;
+
+}
+.PetsInfo__medicaldiv__flex__span2{
+    color:yellow
+}
+.PetsInfo__rightflexdivmed{
+    box-shadow: 1rem 1rem 1rem darkgrey;
+    background: radial-gradient(#fbc1cc, #fa99b2);
+    padding: 2rem 0rem;
+
+}
+.PetsInfo__medicaldiv__flex__span2{
+    color: black !important;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.Petsinfo__adoptbuttoninfo h3{
+    
+    font-size: 5rem;
+    /* color: red; */
+    color: black;
+    /* font-family: 'Montserrat', sans-serif; */
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 4rem 0rem;
+
+}
+.Petsinfo__adoptbuttoninfo p{
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -1rem;
+    color: crimson;
+}
+.Petsinfo__adoptbuttondiv{
+    text-align: center;
+
+}
+.PetsInfo__rightflex_btn__paw{
+    position: relative;
+    transform: scale(2.8);
+    top: -0.5rem;
+    left: 3rem;
+    color: cornsilk;
+
+
+}
+@media screen  and (max-width:967px){
+    
+    .PetsInfo__medicaldiv{
+        flex-direction: column;
+    }
+    .PetsInfo__rightflexdivmed{
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width:707px) {
+    .PetsInfo__flexdiv{
+        flex-direction: column;
+    }
+    .PetsInfo__rightflex{
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+    
+}
+@media screen and (max-width:536px){
+    .carousel-fade{
+        width:50rem !important;
+    }
+    .Petsinfo__img{
+        width: 50rem !important;
+    }
+}
